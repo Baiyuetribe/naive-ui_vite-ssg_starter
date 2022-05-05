@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ESNext",
+    "target": "es2016",
+    "allowJs": true,  // 解决volar提示Virtual script not found, may missing <script lang="ts"> / "allowJs": true / jsconfig.json.
+    "lib": ["DOM", "ESNext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "incremental": false,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": [
+      "vite/client",
+      "vite-plugin-pages/client",
+      "vite-plugin-vue-layouts/client",
+      "naive-ui/volar",
+    ],
+    // "paths": {
+    //   "~/*": ["*"]  // 直接影响代码是否自动引入
+    // }
+  },
+  "exclude": ["node_modules"]
+}
